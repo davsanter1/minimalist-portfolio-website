@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+   --SlightlyDesaturatedCyan: rgb(95, 180, 162);
+   --DarkBlue: rgb(32, 58, 76);
+   --GrayishDarkBlue: rgb(51, 50, 61);
+   --VeryLightGreyBG: rgb(250, 250, 250); 
+   --LightGreyTextField:  rgb(234, 234, 235);
+   --BrightRedErrors: rgb(244, 48, 48);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--VeryLightGreyBG);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Public Sans;
+    margin-top: 2.625rem;
+    margin-bottom: 94px;
+    padding-inline: 10.312rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.625rem;
+    font-size: 12px;
+    color: var(--GrayishDarkBlue);
+    letter-spacing: 2px;
+    flex-direction: row;
+}
+
+nav a{
+    font-weight: 400;
+    text-decoration: none;  
+    color: var(--GrayishDarkBlue);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Public Sans";
+    background-color: var(--GrayishDarkBlue);
+    padding-inline: 10.312rem;
+    padding-block: 1.5rem;
+    color: var(--VeryLightGreyBG);
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 2.625rem;
+    letter-spacing: 2px;
+    
+}
+
+footer a{
+    font-weight: 400;
+    text-decoration: none;  
+    color: var(--VeryLightGreyBG)
+}
+
+.social-footer{
+    display: flex;
+    gap: 15px;
+}
+
+.touch{
+    display: flex;
+    justify-content:space-between;
+    padding-inline: 10.312rem;
+}
+
+.left{
+    width: 48%;
+}
+
+.left h1{
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357px;
+}
+
+.right{
+    width: 52%;
+}
+
+.right p{
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #979797;
+    margin-bottom: 24px;
+}
+
+.social{
+    display: flex;
+    width: 104px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
