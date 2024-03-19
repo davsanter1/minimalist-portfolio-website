@@ -1,0 +1,50 @@
+:root{
+    --SlightlyDesaturatedCyan: rgb(95, 180, 162);
+    --DarkBlue: rgb(32, 58, 76);
+    --GrayishDarkBlue: rgb(51, 50, 61);
+    --VeryLightGreyBG: rgb(250, 250, 250); 
+    --LightGreyTextField:  rgb(234, 234, 235);
+    --BrightRedErrors: rgb(244, 48, 48);
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style-type: none;
+     text-decoration: none;  
+ }
+ 
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/Lovepik_com-400149199-the-scene-of-urban-construction.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+ }
+
+main{
+    align-items: center;
+    text-align: center;
+    padding-inline: 100px;
+    padding-block: 50px;
+    border: solid;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-color: rgba(217, 217, 217, 0.835);
+    color: rgba(217, 217, 217, 0.835);
+}
+
+main a{
+    color: rgba(217, 217, 217, 0.835);
+    text-decoration: none;  
+
+}
