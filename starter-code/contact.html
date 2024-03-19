@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="stylesheet" href="contact.css">
   <title>Frontend Mentor | Contact Me</title>
 </head>
@@ -12,13 +12,13 @@
 
 
 <header>
-  <a href="/starter-code/index.html">
+  <a href="/index.html">
     <img class="logo" src="/images/logo.svg" alt="logo">
   </a>
   <nav>
     <ul>
       <li><a href="/index.html">HOME</a></li>
-      <li><a href="/starter-code/portfolio.html">PORTFOLIO</a></li>
+      <li><a href="/portfolio.html">PORTFOLIO</a></li>
       <li><a style="color: rgb(95, 180, 162);" href="#">CONTACT ME</a></li>
     </ul>
   </nav>
@@ -44,32 +44,53 @@
       Please do feel free to check out my online profiles below and get in touch using the form.
     </p>
     <div class="social">
-      <img src="/starter-code/images/icons/github.svg">
-      <img src="/starter-code/images/icons/twitter.svg">
-      <img src="/starter-code/images/icons/linkedin.svg">
+      <img src="/images/icons/github.svg">
+      <img src="/images/icons/twitter.svg">
+      <img src="/images/icons/linkedin.svg">
     </div>
     </div>
   </div>  
-  Contact Me
 
-  Name
-  Jane Appleseed
+  <hr style="margin-inline: 10.312rem; margin-bottom: 48px;">
+  <div class="form">
+    <div class="left1">
+     <h1>Contact Me</h1>
+    </div> 
+    
+    <div class="right1">
+      <form action="" method="post" id="form">
+        <label for="Name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Jane Appleseed"><br>
 
-  Email Address
-  email@example.com
+        <label for="Email">Email Address</label><br>
+        <input type="email" name="email" id="email" placeholder="email@example.com"><br>
 
-  Message
-  How can I help?
+        <label for="Message">Message</label><br>
+        <input name="Message" id="Message" placeholder="How can I help?"><br>
 
-  Send Message
+        <input type="submit" value="Send Message">
 
+
+      </form>  
+
+
+
+      
+      
+
+      
+      
+
+      
+    </div>  
+  </div>  
 
 
 
   <footer>
     <ul class=>
       <a href="#">
-        <img class="logo" src="/starter-code/images/logo copy.svg" alt="logo">
+        <img class="logo" src="/images/logo copy.svg" alt="logo">
       </a>
       <li><a href="#" class="footli-icon">HOME</a></li>
       <li><a href="/starter-code/portfolio.html" class="footli-icon">PORTFOLIO</a></li>
@@ -87,5 +108,6 @@
       </a>
     </div>
   </footer>
+  <script src="/contact.js"></script>
 </body>
 </html>
