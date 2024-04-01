@@ -32,8 +32,9 @@ header{
     justify-content: space-between;
     font-family: Public Sans;
     margin-top: 2.625rem;
-    margin-bottom: 94px;
+    margin-bottom: 2.562rem;
     padding-inline: 10.312rem;
+    transition: transform 0.5s ease-in-out;
 }
 
 nav ul{
@@ -51,7 +52,39 @@ nav a{
     color: var(--GrayishDarkBlue);
 }
 
-footer{
+.contacme{
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-inline: 10.312rem;
+  }
+  
+  .contacme h2{
+      font-size: 40px;
+  }
+  
+  .contacme hr{
+      width: 100%;
+  }
+  
+  .contacme button{
+      font-family: "Public Sans";
+      color: var(--GrayishDarkBlue);
+      background-color: var(--VeryLightGreyBG);
+      width: 15em;
+      margin-left: 20px;
+      padding-inline: 3em;
+      padding-block: 1em;
+      cursor: pointer;
+  }
+  
+  .contacme button:hover{
+      color: var(--VeryLightGreyBG);
+      background-color: var(--DarkBlue);
+  }
+
+  footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,113 +113,67 @@ footer a{
     color: var(--VeryLightGreyBG)
 }
 
-.social-footer{
+.social{
     display: flex;
     gap: 15px;
 }
 
-.touch{
+.container0{
     display: flex;
-    justify-content:space-between;
     padding-inline: 10.312rem;
+    width: 100%;
+
 }
 
-.left{
-    width: 48%;
+.left0{
+    width: 50%;
 }
 
-.left h1{
+.left0 img{
+    width: 100%;
+}
+
+.right0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-inline: 125px;
+}
+
+.right0 h1{
     font-family: "Ibarra Real Nova";
     font-size: 40px;
+    font-weight: 700;
     line-height: 42px;
+    letter-spacing: -0.357px;
 }
 
-.right{
-    width: 52%;
-}
-
-.right p{
+.right0 p{
     font-family: "Public Sans";
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     color: #979797;
-    margin-bottom: 24px;
 }
 
-.social{
-    display: flex;
-    width: 104px;
-    justify-content: space-between;
-    margin-bottom: 48px;
-}
-
-.form{
-    display: flex;
-    padding-inline: 10.312rem;
-
-}
-
-.left1{
-    width: 48%;
-}
-
-.right1{
-    width: 52%;
-    display: flex;
-}
-
-.right1 label {
-    margin-bottom: 8px;
-    display: block;
-    color: #33323D;
+.right0 a{
     font-family: "Public Sans";
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-}
-
-.right1 input[type="text"],
-.right1 input[type="email"] {
-   width: 620px;
-   height: 48px;
-   padding: 16px;
-   margin-bottom: 24px;
-   border: none;
-   background-color: #e1e1e1;
-}
-
-
-.right1 input[type="submit"] {
-    color: #FFF;
-    text-align: center;
-    font-family: "Public Sans";
+    color: var(--GrayishDarkBlue);
+    background-color: var(--VeryLightGreyBG);
+    width: 15em;
+    padding-inline: 32px;
+    padding-block: 1.3em;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    width: 200px;
-    height: 48px;
-    flex-shrink: 0;
-    background-color: #203A4C;
-    margin-bottom: 109px;
-    cursor: pointer;
 }
 
-.right1 input[type="submit"]:hover {
-    background-color: var(--GrayishDarkBlue);
+.right0 a:hover{
+    color: var(--VeryLightGreyBG);
+    background-color: var(--DarkBlue);
 }
-
-textarea[name="Message"] {
-    font-family: "Public Sans";
-    justify-content: baseline;
-    width: 620px;
-    height: 96px;
-    padding: 16px;
-    margin-bottom: 24px;
-    border: none;
-    background-color: #e1e1e1;
-}
-

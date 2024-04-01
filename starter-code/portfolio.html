@@ -4,24 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | My Projects</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>Davsanter | Minimalist Portfolio</title>
 </head>
+<header>
+  <a href="/index.html">
+    <img class="logo" src="/images/logo.svg" alt="logo">
+  </a>
+  <nav>
+    <ul>
+      <li><a href="/index.html">HOME</a></li>
+      <li><a style="color: rgb(95, 180, 162);" href="#">PORTFOLIO</a></li>
+      <li><a href="/contact.html">CONTACT ME</a></li>
+    </ul>
+  </nav>
+</header>
 <body>
+  <div class="container0">
+    <div class="left0">
+      <img src="/images/portfolio/desktop/image-portfolio-manage@2x.jpg" alt="manage">
+    </div>
+    <div class="right0">
+      <hr>
+      <h1>Manage</h1>
 
-  Home
-  Portfolio
-  Contact Me
-
-  Manage
-
-  This project required me to build a fully responsive landing page to the designs provided. 
-  I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
-  such as the testimonial slider.
-
-  View Project
-
+      <p>This project required me to build a fully responsive landing page to the designs provided. 
+      I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
+      such as the testimonial slider.</p>
+      <a href="/manage.html">  
+      VIEW PROJECT
+      </a>
+      <hr>
+    </div>
+  </div>  
+<!--
   Bookmark
 
   This project required me to build a fully responsive landing page to the designs provided. I 
@@ -44,11 +61,39 @@
   built it so that it was fully-responsive. I took a mobile-first approach and used modern 
   CSS like Flexbox and Grid for layout purposes.
 
-  View Project
+  View Project-->
 
-  Interested in doing a project together?
+  <div class="contacme">
+    <h2>Interested in doing a project together?</h2>
+    <hr>
+    <a href="/contact.html">
+      <button>CONTACT ME</button>
+    </a>  
+  </div>
 
-  Contact Me
 
+
+
+<footer>
+  <ul class=>
+    <a href="/index.html">
+      <img class="logo" src="/images/logo copy.svg" alt="logo">
+    </a>
+    <li><a href="/index.html" class="footli-icon">HOME</a></li>
+    <li><a href="#" class="footli-icon">PORTFOLIO</a></li>
+    <li><a href="/contact.html" class="footli-icon">CONTACT ME</a></li>
+  </ul>
+  <div class="social">
+    <a href="https://github.com/" target="_blank">
+      <img src="/images/icons/github copy.svg" alt="github-link">
+    </a>
+    <a href="https://twitter.com/" target="_blank">
+      <img src="/images/icons/twitter copy.svg" alt="twitter-link">
+    </a>
+    <a href="https://www.linkedin.com/" target="_blank">
+      <img src="/images/icons/linkedin copy.svg" alt="linkedin-link">
+    </a>
+  </div>
+</footer>
 </body>
 </html>
