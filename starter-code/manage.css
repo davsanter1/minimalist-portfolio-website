@@ -94,30 +94,31 @@ footer a{
     padding-inline: 10.312rem;
   }
   
-  .contacme h2{
-      font-size: 40px;
-  }
+.contacme h2{
+  font-size: 40px;
+}
   
-  .contacme hr{
-      width: 100%;
-  }
+.contacme hr{
+    width: 100%;
+}
   
-  .contacme button{
-      font-family: "Public Sans";
-      border-width: 1px;
-      color: var(--GrayishDarkBlue);
-      background-color: var(--VeryLightGreyBG);
-      width: 15em;
-      margin-left: 20px;
-      padding-inline: 3em;
-      padding-block: 1em;
-      cursor: pointer;
-  }
+.contacme button{
+    font-family: "Public Sans";
+    border-width: 1px;
+    color: var(--GrayishDarkBlue);
+    background-color: var(--VeryLightGreyBG);
+    width: 15em;
+    margin-left: 20px;
+    padding-inline: 3em;
+    padding-block: 1em;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
   
-  .contacme button:hover{
-      color: var(--VeryLightGreyBG);
-      background-color: var(--DarkBlue);
-  }
+.contacme button:hover{
+    color: var(--VeryLightGreyBG);
+    background-color: var(--DarkBlue);
+}
 
 .mainpic{
     display: flex;
@@ -133,12 +134,13 @@ footer a{
     display: flex;
     padding-inline: 10.312rem;
     width: 100%;
+    margin-bottom: 4em;
 }   
 
 .left0{
     display: inline;
     width: 41%;
-    padding-right: 125px;
+    padding-right: 135px;
 }
 
 .left0 h1{
@@ -168,29 +170,126 @@ footer a{
 }
 
 .button{
+    display: inline-block;
     border: solid;
     border-width: 1px;
     padding-inline: 32px;
     padding-block: 16px;
-    margin-top: 20px;
+    margin-block: 3em;
+    color: #33323D;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    color: var(--VeryLightGreyBG);
+    background-color: var(--DarkBlue);
 }
 
 .right0{
     width: 59%;
+    padding-left: 20px;
 }
 
+.right0 h2{
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.286px;
+    margin-bottom: 1em;
+}
 
+.right0 p{
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 3em;
+}
 
+.right0 img{
+    width: 100%;
+    margin-top: 1em;
+}
 
+.changepage{
+    display: flex;
+    width: 100%;
+    padding-inline: 10.312rem;
+}
 
+.left01{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-right: solid;
+    gap: 22px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #979797;
+    padding-block: 32px;
+}
 
+.iconl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.textl h2{
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.286px;
+}
 
+.textl p{
+    color: #979797;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
+.right01{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    gap: 22px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #979797;
+    padding-block: 32px;
+}
 
+.iconr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.textr h2{
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.286px;
+}
 
-
-
-
-
+.textr p{
+    color: #979797;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
