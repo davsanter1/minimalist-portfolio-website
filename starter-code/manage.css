@@ -233,6 +233,7 @@ footer a{
     border-width: 1px;
     border-color: #979797;
     padding-block: 32px;
+    cursor: pointer;
 }
 
 .iconl{
@@ -269,6 +270,7 @@ footer a{
     border-width: 1px;
     border-color: #979797;
     padding-block: 32px;
+    cursor: pointer;
 }
 
 .iconr{
